@@ -1,0 +1,306 @@
+[
+  {
+    "request_id": "req_000",
+    "scenario": "mixed_batching",
+    "prompt_class": "short",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a concise assistant."
+      },
+      {
+        "role": "user",
+        "content": "Answer in one short sentence: what is the key difference between latency and throughput? Example id 0."
+      }
+    ],
+    "max_tokens": 48,
+    "temperature": 0.0,
+    "arrival_offset_s": 0.0,
+    "metadata": null
+  },
+  {
+    "request_id": "req_001",
+    "scenario": "mixed_batching",
+    "prompt_class": "long",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful technical writer."
+      },
+      {
+        "role": "user",
+        "content": "Write a detailed 400-word explanation of why batching matters in LLM serving. Keep it structured and readable. Example id 0."
+      }
+    ],
+    "max_tokens": 300,
+    "temperature": 0.0,
+    "arrival_offset_s": 0.2,
+    "metadata": null
+  },
+  {
+    "request_id": "req_002",
+    "scenario": "mixed_batching",
+    "prompt_class": "short",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a concise assistant."
+      },
+      {
+        "role": "user",
+        "content": "Answer in one short sentence: what is the key difference between latency and throughput? Example id 1."
+      }
+    ],
+    "max_tokens": 48,
+    "temperature": 0.0,
+    "arrival_offset_s": 0.4,
+    "metadata": null
+  },
+  {
+    "request_id": "req_003",
+    "scenario": "mixed_batching",
+    "prompt_class": "long",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful technical writer."
+      },
+      {
+        "role": "user",
+        "content": "Write a detailed 400-word explanation of why batching matters in LLM serving. Keep it structured and readable. Example id 1."
+      }
+    ],
+    "max_tokens": 300,
+    "temperature": 0.0,
+    "arrival_offset_s": 0.6000000000000001,
+    "metadata": null
+  },
+  {
+    "request_id": "req_004",
+    "scenario": "mixed_batching",
+    "prompt_class": "short",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a concise assistant."
+      },
+      {
+        "role": "user",
+        "content": "Answer in one short sentence: what is the key difference between latency and throughput? Example id 2."
+      }
+    ],
+    "max_tokens": 48,
+    "temperature": 0.0,
+    "arrival_offset_s": 0.8,
+    "metadata": null
+  },
+  {
+    "request_id": "req_005",
+    "scenario": "mixed_batching",
+    "prompt_class": "long",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful technical writer."
+      },
+      {
+        "role": "user",
+        "content": "Write a detailed 400-word explanation of why batching matters in LLM serving. Keep it structured and readable. Example id 2."
+      }
+    ],
+    "max_tokens": 300,
+    "temperature": 0.0,
+    "arrival_offset_s": 1.0,
+    "metadata": null
+  },
+  {
+    "request_id": "req_006",
+    "scenario": "mixed_batching",
+    "prompt_class": "short",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a concise assistant."
+      },
+      {
+        "role": "user",
+        "content": "Answer in one short sentence: what is the key difference between latency and throughput? Example id 3."
+      }
+    ],
+    "max_tokens": 48,
+    "temperature": 0.0,
+    "arrival_offset_s": 1.2,
+    "metadata": null
+  },
+  {
+    "request_id": "req_007",
+    "scenario": "mixed_batching",
+    "prompt_class": "long",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful technical writer."
+      },
+      {
+        "role": "user",
+        "content": "Write a detailed 400-word explanation of why batching matters in LLM serving. Keep it structured and readable. Example id 3."
+      }
+    ],
+    "max_tokens": 300,
+    "temperature": 0.0,
+    "arrival_offset_s": 1.4,
+    "metadata": null
+  },
+  {
+    "request_id": "req_008",
+    "scenario": "mixed_batching",
+    "prompt_class": "short",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a concise assistant."
+      },
+      {
+        "role": "user",
+        "content": "Answer in one short sentence: what is the key difference between latency and throughput? Example id 4."
+      }
+    ],
+    "max_tokens": 48,
+    "temperature": 0.0,
+    "arrival_offset_s": 1.5999999999999999,
+    "metadata": null
+  },
+  {
+    "request_id": "req_009",
+    "scenario": "mixed_batching",
+    "prompt_class": "short",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a concise assistant."
+      },
+      {
+        "role": "user",
+        "content": "Answer in one short sentence: what is the key difference between latency and throughput? Example id 5."
+      }
+    ],
+    "max_tokens": 48,
+    "temperature": 0.0,
+    "arrival_offset_s": 1.7999999999999998,
+    "metadata": null
+  },
+  {
+    "request_id": "req_010",
+    "scenario": "mixed_batching",
+    "prompt_class": "short",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a concise assistant."
+      },
+      {
+        "role": "user",
+        "content": "Answer in one short sentence: what is the key difference between latency and throughput? Example id 6."
+      }
+    ],
+    "max_tokens": 48,
+    "temperature": 0.0,
+    "arrival_offset_s": 1.9999999999999998,
+    "metadata": null
+  },
+  {
+    "request_id": "req_011",
+    "scenario": "mixed_batching",
+    "prompt_class": "short",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a concise assistant."
+      },
+      {
+        "role": "user",
+        "content": "Answer in one short sentence: what is the key difference between latency and throughput? Example id 7."
+      }
+    ],
+    "max_tokens": 48,
+    "temperature": 0.0,
+    "arrival_offset_s": 2.1999999999999997,
+    "metadata": null
+  },
+  {
+    "request_id": "req_012",
+    "scenario": "mixed_batching",
+    "prompt_class": "short",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a concise assistant."
+      },
+      {
+        "role": "user",
+        "content": "Answer in one short sentence: what is the key difference between latency and throughput? Example id 8."
+      }
+    ],
+    "max_tokens": 48,
+    "temperature": 0.0,
+    "arrival_offset_s": 2.4,
+    "metadata": null
+  },
+  {
+    "request_id": "req_013",
+    "scenario": "mixed_batching",
+    "prompt_class": "short",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a concise assistant."
+      },
+      {
+        "role": "user",
+        "content": "Answer in one short sentence: what is the key difference between latency and throughput? Example id 9."
+      }
+    ],
+    "max_tokens": 48,
+    "temperature": 0.0,
+    "arrival_offset_s": 2.6,
+    "metadata": null
+  },
+  {
+    "request_id": "req_014",
+    "scenario": "mixed_batching",
+    "prompt_class": "short",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a concise assistant."
+      },
+      {
+        "role": "user",
+        "content": "Answer in one short sentence: what is the key difference between latency and throughput? Example id 10."
+      }
+    ],
+    "max_tokens": 48,
+    "temperature": 0.0,
+    "arrival_offset_s": 2.8000000000000003,
+    "metadata": null
+  },
+  {
+    "request_id": "req_015",
+    "scenario": "mixed_batching",
+    "prompt_class": "short",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a concise assistant."
+      },
+      {
+        "role": "user",
+        "content": "Answer in one short sentence: what is the key difference between latency and throughput? Example id 11."
+      }
+    ],
+    "max_tokens": 48,
+    "temperature": 0.0,
+    "arrival_offset_s": 3.0000000000000004,
+    "metadata": null
+  }
+]
