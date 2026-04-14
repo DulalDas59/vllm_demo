@@ -385,7 +385,7 @@ Ray Serve is useful when you want to build not just a model server, but a larger
 
 ## 7) How I would choose among them
 
-### If the goal is an MTech systems demo
+### If the goal is an quick systems demo
 
 Stick with:
 
