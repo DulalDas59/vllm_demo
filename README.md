@@ -1,4 +1,49 @@
-# vLLM Systems Demo: Continuous Batching, Chunked Prefill, PagedAttention, and Prefix Caching
+# vLLM Enterprise Webinar Demo Infrastructure
+
+> **Webinar:** vLLM as an Enterprise Serving System — BITS Pilani MTech  
+> **Hardware:** RunPod A100 80GB · Model: `Qwen/Qwen2.5-7B-Instruct`  
+> **For the full spec:** see [CLAUDE_CODE_BRIEF.md](CLAUDE_CODE_BRIEF.md)  
+> **For day-of operations:** see [WEBINAR_RUNBOOK.md](WEBINAR_RUNBOOK.md)
+
+---
+
+## Quickstart (RunPod)
+
+```bash
+# 1. One-time setup (installs Prometheus, Grafana, vLLM, downloads model)
+bash runpod/setup.sh
+
+# 2. Start monitoring stack
+bash runpod/start_monitoring.sh
+# Grafana: https://<pod-id>-3000.proxy.runpod.net  (admin/admin)
+
+# 3. Start Chapter 1 server + background traffic
+python scripts/webinar_orchestrator.py start --chapter 1
+python scripts/background_traffic.py &
+
+# 4. Run demos (see WEBINAR_RUNBOOK.md for full sequence)
+python chapters/chapter1_continuous_batching/client.py --mode serial
+python chapters/chapter1_continuous_batching/client.py --mode concurrent
+```
+
+---
+
+## Six chapters, six demos
+
+| Chapter | Feature | Demo type | Port(s) |
+|---|---|---|---|
+| 1 | Continuous Batching | Live Gantt chart | 8000 |
+| 2 | Chunked Prefill | Noisy neighbor TTFT spike | 8000, 8001 |
+| 3 | Prefix Caching | TTFT 5x improvement | 8002, 8003 |
+| 4 | SLO + Cost | Pre-generated table | — |
+| 5 | PagedAttention / KV | KV pressure ramp | 8004, 8005 |
+| 6 | Speculative Decoding | Pre-generated chart | — |
+
+---
+
+## Original README (existing benchmark scripts)
+
+This repo also contains the original demo scripts for exploring vLLM behavior under controlled workloads.
 
 This mini-project gives you a **runnable demo setup** for showing how vLLM behaves under realistic serving workloads.
 
