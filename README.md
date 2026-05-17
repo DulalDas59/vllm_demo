@@ -2,7 +2,6 @@
 
 > **Webinar:** vLLM as an Enterprise Serving System — BITS Pilani MTech  
 > **Hardware:** RunPod A100 80GB · Model: `Qwen/Qwen2.5-7B-Instruct`  
-> **For the full spec:** see [CLAUDE_CODE_BRIEF.md](CLAUDE_CODE_BRIEF.md)  
 > **For day-of operations:** see [WEBINAR_RUNBOOK.md](WEBINAR_RUNBOOK.md)
 
 ---
